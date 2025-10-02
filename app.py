@@ -43,7 +43,8 @@ if user_query:
     ).data[0].embedding
 
     # Find relevant docs
-    distances, indices = nn.kneighbors([q_emb])
+    q_emb = np.array(q_emb).reshape(1, -1)  # ensure shape (1, embedding_dim)
+    distances, indices = nn.kneighbors(q_emb)
     retrieved = [docs[i] for i in indices[0]]
 
     # Create prompt
