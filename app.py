@@ -7,7 +7,7 @@ from sklearn.neighbors import NearestNeighbors
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Load documents
-def load_docs(path="docs/sample.txt"):
+def load_docs(path="sample.txt"):
     with open(path, "r", encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
 
