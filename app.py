@@ -55,6 +55,4 @@ if user_query:
 
     st.write("**Answer:**", response.choices[0].message.content)
     st.write("---")
-    st.write("**Retrieved context:**")
-    for r in retrieved:
-        st.write("-", r)
+    
