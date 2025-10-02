@@ -1,0 +1,11 @@
+Artificial Intelligence (AI) is a branch of computer science that focuses on building machines capable of performing tasks that normally require human intelligence. Examples include learning, reasoning, problem-solving, understanding natural language, and perception.
+
+Machine Learning is a subset of AI that allows systems to learn and improve automatically from experience without being explicitly programmed. It uses algorithms and statistical models to find patterns in data.
+
+Deep Learning is a type of machine learning based on neural networks with many layers. It is the key technology behind recent advances in computer vision, speech recognition, and natural language processing.
+
+Natural Language Processing (NLP) is a field of AI that enables computers to understand, interpret, and respond to human language. Applications include chatbots, translation systems, and sentiment analysis.
+
+OpenAI is an AI research organization that develops and promotes friendly AI. They have created models like GPT, which are capable of generating human-like text.
+
+RAG (Retrieval-Augmented Generation) is a technique that combines document retrieval with generative AI models. Instead of relying only on training data, the model can fetch relevant information from an external knowledge base and use it to generate more accurate and up-to-date responses.
